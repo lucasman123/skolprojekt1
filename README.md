@@ -1,1 +1,3 @@
-# skolprojekt1
+# Skolprojekt1
+
+Uppgift i webutveckling
