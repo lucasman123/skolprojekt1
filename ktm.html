@@ -5,6 +5,15 @@
         <meta charset="utf-8" />
         <title>Motorcyklar</title>
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script> 
+        var sida = "KTM";
+        $(()=>{
+            var pageHeader = document.getElementById("pageHeader");
+        pageHeader.innerHTML = sida;
+        });
+       
+        </script>
     </head>
     <body>
         <nav>
@@ -15,7 +24,7 @@
             </ul>
         </nav>
 
-        <h1 id="pageHeader">KTM</h1>
+        <h1 id="pageHeader"></h1>
         <section class="info">
             <h3>EXC</h3>
             <img alt="KTM EXC" src="./img/ktm_exc.jpg">

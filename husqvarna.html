@@ -5,6 +5,15 @@
         <meta charset="utf-8" />
         <title>Motorcyklar</title>
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script> 
+        var sida = "Husqvarna";
+        $(()=>{
+            var pageHeader = document.getElementById("pageHeader");
+        pageHeader.innerHTML = sida;
+        });
+       
+        </script>
     </head>
     <body>
         <nav>
@@ -15,7 +24,7 @@
             </ul>
         </nav>
 
-        <h1 id="pageHeader">Husqvarna</h1>
+        <h1 id="pageHeader"></h1>
         <section class="info">
             <h3>TE</h3>
             <img height="183" width="275" alt="Husqvarna TE" src="./img/husqvarna_te.jpg">
